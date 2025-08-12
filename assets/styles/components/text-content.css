@@ -1,0 +1,28 @@
+.text-content {
+    margin-top: 64px;
+}
+
+.text-content__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: var(--very-dark-desaturated-violet-main);
+}
+
+.text-content__description {
+    margin-top: 24px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    text-align: center;
+
+    color: var(--dark-grayish-violet);
+}
