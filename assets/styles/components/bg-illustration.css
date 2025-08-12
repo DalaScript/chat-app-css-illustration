@@ -22,3 +22,15 @@
     bottom: -509px;
     right: -323px;
 }
+
+@media (min-width: 1440px) {
+    .bg-illustration--left {
+        top: -318px;
+        left: -90px;
+    }
+
+    .bg-illustration--right {
+        bottom: -337px;
+        right: -185px;
+    }
+}

@@ -1,7 +1,3 @@
-.text-content {
-    margin-top: 64px;
-}
-
 .text-content__title {
     font-family: 'Rubik';
     font-style: normal;
@@ -25,4 +21,15 @@
     text-align: center;
 
     color: var(--dark-grayish-violet);
+}
+
+@media (min-width: 1440px) {
+    .text-content {
+        max-width: 445px;
+    }
+
+    .text-content__title,
+    .text-content__description {
+        text-align: left;
+    }
 }
