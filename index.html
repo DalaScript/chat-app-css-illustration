@@ -1,20 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Chat app CSS illustration | Frontend Mentor </title>
+  <link rel="stylesheet" href="./assets/styles/base/reset.css">
+  <link rel="stylesheet" href="./assets/styles/base/variables.css">
+
+  <link rel="stylesheet" href="./assets/styles/components/smartphone.css">
 </head>
+
 <body>
+
+  <main>
+    <div class="smartphone">
+      <div class="smartphone__display">
+        <div class="app smartphone__app">
+          <div class="app__header">
+            <svg width="4" height="10" viewBox="0 0 4 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.10557 0.552792C2.35256 0.0588133 2.95324 -0.141411 3.44721 0.105578C3.90591 0.334925 4.11131 0.869235 3.94056 1.3399L3.89443 1.44722L2.118 5.00001L3.89443 8.55279C4.12377 9.01149 3.96751 9.56218 3.54851 9.83626L3.44721 9.89443C2.98852 10.1238 2.43783 9.96752 2.16374 9.54852L2.10557 9.44722L0.105573 5.44722C-0.0150818 5.20591 -0.0323182 4.92798 0.0538637 4.67621L0.105573 4.55279L2.10557 0.552792Z"
+                fill="white" />
+            </svg>
+            <div class="chat-profile">
+              <img class="chat-profile__img" src="./assets/images/avatar.jpg" alt="">
+              <div class="chat-profile__details">
+                <p class="chat-profile__name">Samuel Green</p>
+                <p class="chat-profile__status">Available to Walk</p>
+              </div>
+            </div>
+            <svg class="chat-profile__icon--options" width="2" height="8" viewBox="0 0 2 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M2 1C2 1.55228 1.55228 2 1 2C0.447715 2 0 1.55228 0 1C0 0.447715 0.447715 0 1 0C1.55228 0 2 0.447715 2 1ZM2 4C2 4.55228 1.55228 5 1 5C0.447715 5 0 4.55228 0 4C0 3.44772 0.447715 3 1 3C1.55228 3 2 3.44772 2 4ZM1 8C1.55228 8 2 7.55228 2 7C2 6.44772 1.55228 6 1 6C0.447715 6 0 6.44772 0 7C0 7.55228 0.447715 8 1 8Z"
+                fill="white" />
+            </svg>
+            
+            </div>
+          <div class="app__body">
+            <div class="chat">
+              <div class="chat__message-group chat__message-group--other">
+                <div class="chat__message">
+                  <p>
+                    That sounds great. I’d be happy to discuss more.
+                  </p>
+                </div>
+                <div class="chat__message">
+                  <p>
+                    Could you send over some pictures of your dog, please?
+                  </p>
+                </div>
+              </div>
+              <div class="chat__message-group chat__message-group--user">
+                <div class="chat__message-imgs">
+                  <img src="./assets/images/dog-image-1.jpg" alt="">
+                  <img src="./assets/images/dog-image-2.jpg" alt="">
+                  <img src="./assets/images/dog-image-3.jpg" alt="">
+                </div>
+                <div class="chat__message">
+                  <p>
+                    That sounds great. I’d be happy to discuss more.
+                  </p>
+                </div>
+                <div class="chat__message">
+                  <p>
+                    Can you make it?
+                  </p>
+                </div>
+              </div>
+              <div class="chat__message-group chat__message-group--other">
+                <div class="chat__message">
+                  <p>
+                    She looks so happy! The time we discussed works. How long shall I take her out for?
+                  </p>
+                </div>
+                <div class="chat__message-offer">
+                  <div class="chat__message-radio"></div>
+                  <p>30 minute walk</p>
+                  <span>$29</span>
+                </div>
+                <div class="chat__message-offer">
+                  <div class="chat__message-radio"></div>
+                  <p>1 hour walk</p>
+                  <span>$49</span>
+                </div>
+              </div>
+            </div>
+            <div class="chat-input">
+              <p>Type a message…</p>
+              <div class="chat-input__send-icon">
+                <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M1.06419 0.465024C1.50167 0.0284666 2.19006 -0.00511479 2.66614 0.36428L2.78047 0.465024L6.42125 4.09812C6.85873 4.53467 6.89238 5.22161 6.52221 5.69669L6.42125 5.81077L2.78047 9.44387C2.30653 9.9168 1.53813 9.9168 1.06419 9.44387C0.626713 9.00731 0.59306 8.32038 0.963236 7.8453L1.06419 7.73121L3.84588 4.95445L1.06419 2.17768C0.626713 1.74112 0.59306 1.05419 0.963236 0.579112L1.06419 0.465024Z"
+                    fill="white" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="smartphone__camera"></div>
+    </div>
+  </main>
 
   Samuel Green
   Available to Walk
 
-  That sounds great. I’d be happy with that.
 
-  Could you send over some pictures of your dog, please?
+
+
 
   Here are a few pictures. She’s a happy girl!
 
@@ -25,15 +121,16 @@
   30 minute walk
   $29
 
-  1 hour walk
-  $49
+  
+  
 
   Type a message…
 
   Simple booking
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  Stay in touch with our dog walkers through the chat interface. This makes it easy to
+  discuss arrangements and make bookings. Once the walk has been completed you can rate
   your walker and book again all through the chat.
 </body>
+
 </html>
