@@ -1,0 +1,23 @@
+/* || Fonts ('Rubik')
+ *************************/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* || Global Variables
+ *************************/
+:root {
+    --pale-violet: #D99EFF;
+    --pale-violet-light: #EEE5F4;
+    --moderate-violet: #9341C8;
+    --desaturated-dark-violet: #6e5d7e;
+    --grayish-blue: #C5C9CC;
+    --very-dark-desaturated-violet-main: #3e2753;
+    --dark-grayish-violet: #a39daa;
+
+    --light-magenta: #e844ff;
+    --light-violet: #8739ff;
+
+    --white: #ffffff;
+    --light-grayish-violet: #f5f3f7;
+    --very-dark-desaturated-violet: #020202;
+    --very-light-magenta: #e570ff;
+}
