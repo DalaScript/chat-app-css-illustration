@@ -161,7 +161,7 @@
 }
 
 .chat__message-group--other .chat__message {
-    border-radius: 10px 10px 4px 10px;
+    border-radius: 10px 10px 10px 4px;
     background-color: var(--pale-violet-light);
 }
 
@@ -178,7 +178,7 @@
 .chat__message-offer {
     padding: 10px 16px 10px 8px;
     max-width: 160px;
-    border-radius: 10px 10px 4px 10px;
+    border-radius: 10px 10px 10px 4px;
 
     background: linear-gradient(79deg, var(--light-magenta) 0%, var(--light-violet) 100%);
     box-shadow: 0px 10px 5px -5px #3e27530b;
