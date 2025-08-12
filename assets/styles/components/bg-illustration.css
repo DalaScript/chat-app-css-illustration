@@ -1,0 +1,24 @@
+.bg-illustration {
+    width: 510px;
+    height: 1018px;
+    border-radius: 255px;
+
+    position: absolute;
+}
+
+.bg-illustration--left {
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+
+    top: -509px;
+    left: -322px;
+}
+
+.bg-illustration--right {
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    mix-blend-mode: normal;
+    opacity: 0.03;
+    border-radius: 255px;
+
+    bottom: -509px;
+    right: -323px;
+}
