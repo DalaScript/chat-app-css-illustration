@@ -13,9 +13,8 @@ main {
 
 @media (min-width: 1440px) {
     main {
-        padding: 148px 0 147px;
+        padding: 148px 0 147px 363px;
         flex-direction: row;
-        justify-content: center;
         gap: 125px;
     }
 }
