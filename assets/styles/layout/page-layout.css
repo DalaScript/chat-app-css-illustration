@@ -13,6 +13,7 @@ main {
 
 @media (min-width: 1440px) {
     main {
+        height: 100vh;
         padding: 148px 0 147px 363px;
         flex-direction: row;
         gap: 125px;
